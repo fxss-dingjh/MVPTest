@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager android:id="@+id/vp_content"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+    <com.fengxingss.dingjh.mvptest.Layout.BottomBarLayout android:id="@+id/bbl"
+        android:layout_width="match_parent" android:layout_height="45dp"
+        android:layout_gravity="center" android:background="@android:color/background_light" android:gravity="center"
+        android:orientation="horizontal">
+        <com.fengxingss.dingjh.mvptest.Layout.BottomBarItem android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="1"
+            app:iconNormal="@mipmap/ic_launcher" app:iconSelected="@mipmap/ic_launcher_round"
+            app:itemMarginTop="-5dp" app:itemText="首页"
+            app:itemTextSize="8sp" app:textColorNormal="@android:color/holo_blue_bright"
+            app:textColorSelected="@android:color/holo_blue_dark" />
+
+        <com.fengxingss.dingjh.mvptest.Layout.BottomBarItem android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="1"
+            app:iconNormal="@mipmap/ic_launcher" app:iconSelected="@mipmap/ic_launcher_round"
+            app:itemMarginTop="-5dp" app:itemText="视频"
+            app:itemTextSize="8sp" app:textColorNormal="@android:color/holo_blue_bright"
+            app:textColorSelected="@android:color/holo_blue_dark" />
+
+
+        <com.fengxingss.dingjh.mvptest.Layout.BottomBarItem android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="1"
+            app:iconNormal="@mipmap/ic_launcher" app:iconSelected="@mipmap/ic_launcher_round"
+            app:itemMarginTop="-5dp" app:itemText="微头条"
+            app:itemTextSize="8sp" app:textColorNormal="@android:color/holo_blue_bright"
+            app:textColorSelected="@android:color/holo_blue_dark" />
+
+        <com.fengxingss.dingjh.mvptest.Layout.BottomBarItem android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="1"
+            app:iconNormal="@mipmap/ic_launcher" app:iconSelected="@mipmap/ic_launcher_round"
+            app:itemMarginTop="-5dp" app:itemText="我的"
+            app:itemTextSize="8sp" app:textColorNormal="@android:color/holo_blue_bright"
+            app:textColorSelected="@android:color/holo_blue_dark" />
+
+    </com.fengxingss.dingjh.mvptest.Layout.BottomBarLayout>
+
+
+</LinearLayout>
